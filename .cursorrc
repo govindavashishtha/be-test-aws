@@ -1,0 +1,21 @@
+{
+  "editor": {
+    "tabSize": 2,
+    "insertSpaces": true,
+    "wordWrap": "on",
+    "formatOnSave": true,
+    "defaultFormatter": "prettier",
+    "rulers": [80]
+  },
+  "files": {
+    "trimTrailingWhitespace": true,
+    "insertFinalNewline": true,
+    "exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/build": true,
+      "**/.git": true,
+      "**/coverage": true
+    }
+  }
+}
